@@ -14,6 +14,9 @@ RGB_MATRIX_ENABLE = no
 RGB_MATRIX_DRIVER = WS2812
 LTO_ENABLE = yes
 
+OLED_ENABLE = yes
+OLED_DRIVER = SSD1306
+
 # if firmware size over limit, try this option
 # LTO_ENABLE = yes
 
