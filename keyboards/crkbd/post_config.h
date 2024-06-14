@@ -43,7 +43,14 @@
 #endif
 
 #ifdef OLED_ENABLE
-    #ifndef OLED_FONT_H
-        #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
-    #endif
+#    ifndef OLED_FONT_H
+#        define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+#    endif
 #endif
+
+#ifndef TAPPING_TERM
+#    define TAPPING_TERM 120
+#    define QUICK_TAP_TERM 120
+#endif
+
+#define PERMISSIVE_HOLD
